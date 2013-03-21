@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://YuHaibo.github.com
-title: YuHaibo
+url: http://yuhaibo.com
+title: YuHaibo&apos;s Blog
 subtitle: Just My Blog.
 author: YuHaibo
 simple_search: http://google.com/search
@@ -20,6 +20,9 @@ subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
+
+# Gravatar email
+gravatar_email: www@yuhaibo.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -85,11 +88,14 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+# disqus_short_name:
+# disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Duoshuo Comments
+duoshuo_show_comment_count: true
