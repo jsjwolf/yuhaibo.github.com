@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>YuHaibo&apos;s Blog</title>
+	<title>QQ Pinyin Bug - YuHaibo&apos;s Blog</title>
 	<meta name="author" content="YuHaibo">
 
 	
-	<meta name="description" content="Nov 7th, 2012 QQ Pinyin Bug 已经提交到乌云: http://www.wooyun.org/bugs/wooyun-2012-014422 搞不清楚这个算腾讯的bug还是微软的bug，于是相关厂商就写了个腾讯。 update 2012-11-8 : &hellip;">
+	<meta name="description" content="QQ Pinyin Bug 已经提交到乌云: http://www.wooyun.org/bugs/wooyun-2012-014422 搞不清楚这个算腾讯的bug还是微软的bug，于是相关厂商就写了个腾讯。 update 2012-11-8 : 微软回复称这是因为第三方软件造成的安全漏洞。 &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -17,7 +17,7 @@
 
 	<link href="/atom.xml" rel="alternate" title="YuHaibo&apos;s Blog" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://YuHaibo.github.com/">
+	<link rel="canonical" href="http://YuHaibo.github.com/post/qq-pinyin-bug/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -78,102 +78,34 @@
 				
 			
 			<div class="mid-col-container">
-				<div id="content" class="inner">
-<div itemscope itemtype="http://schema.org/Blog">
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-11-07T20:10:00+08:00" data-updated="true" itemprop="datePublished">Nov 7<span>th</span>, 2012</time></div>
-		<div class="tags">
-
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/post/qq-pinyin-bug/" itemprop="url">QQ Pinyin Bug</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>已经提交到乌云: <a href="http://www.wooyun.org/bugs/wooyun-2012-014422">http://www.wooyun.org/bugs/wooyun-2012-014422</a></p>
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">QQ Pinyin Bug</h1>
+	<div class="entry-content" itemprop="articleBody"><p>已经提交到乌云: <a href="http://www.wooyun.org/bugs/wooyun-2012-014422">http://www.wooyun.org/bugs/wooyun-2012-014422</a></p>
 
 <p>搞不清楚这个算腾讯的bug还是微软的bug，于是相关厂商就写了个腾讯。</p>
 
 <p>update 2012-11-8 : 微软回复称这是因为第三方软件造成的安全漏洞。</p>
 
 <p>update 2012-11-28：<a href="http://security.tencent.com/index.php/announcement/msg/15" title="[TPSA12-14] QQ拼音输入法漏洞处理公告">http://security.tencent.com/index.php/announcement/msg/15</a></p>
-
-		
-		
-	</div>
+</div>
 
 </article>
 
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
-  
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
 
 
-<time datetime="2012-07-14T20:10:00+08:00" data-updated="true" itemprop="datePublished">Jul 14<span>th</span>, 2012</time></div>
-		<div class="tags">
 
 </div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/post/kindle-touch-debricking/" itemprop="url">Kindle Touch 修复</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>本人有一已越狱且换过字体的kindle touch，系统版本5.0.3，直接升级5.1.0失败，提示错误006。</p>
-
-<p>于是将其恢复出厂设置，果断杯具，文字无法正常显示，均变成“口口口口口口口口口”，忽然想起换过字体，于是字体文件拷回kindle touch，显示正常。</p>
-
-<p>打算换回原有字体并且反越狱，折腾N久未果，大怒，于是将kindle touch恢复到最初的5.0.0，记录之。</p>
-
-<ul>
-<li>下载5.0.0完整镜像,Google <strong>mmcblk0p1-kt-5.0.0.img</strong> 即可下载；</li>
-<li>进入工程模式，并且在工程模式中打开SSH；</li>
-<li>使用SSH登录kindle，将下载的 mmcblk0p1-kt-5.0.0.img 文件拷到 /mnt/us/目录，Windows下可以使用WinSC；</li>
-<li>命令行下执行 dd if=/mnt/us/mmcblk0p1-kt-5.0.0.img of=/dev/mmcblk0p1 bs=4K ，等几分钟执行完成，现在系统已经是原始的5.0.0版了；</li>
-<li>升级，在官网<a href="http://www.amazon.com/gp/help/customer/display.html/ref=hp_left_cn?ie=UTF8&amp;amp;nodeId=200790650" title="Amazon官网kindle升级包">下载</a>升级包，按照常规方式升级，ok，搞定！</li>
-</ul>
-
-
-<p><img src="http://farm9.staticflickr.com/8505/8410898542_3886db9534_b.jpg" title="kindletouch" alt="kindletouch" /></p>
-
-<p>打开后发现5.1.0系统自带的中文字体已经比较好看了，比起之前自带的坑爹字体好很多，所以也没必要越狱换字体了，就这么用了。</p>
-
-<p>PS: 又学了个新命令 <a href="http://en.wikipedia.org/wiki/Dd_(Unix">dd</a> &#8220;dd&#8221;)</p>
-
-		
-		
-	</div>
-
-</article>
-
-</div>
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav></div>
 			</div>
 			<footer id="footer" class="inner"><p>
 	Copyright &copy; 2013 <a href="http://yuhaibo.com">YuHaibo.com</a>
