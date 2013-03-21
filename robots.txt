@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://YuHaibo.github.com/sitemap.xml 
+Sitemap: http://yuhaibo.com/sitemap.xml 

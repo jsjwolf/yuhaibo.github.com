@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[YuHaibo&apos;s Blog]]></title>
-  <link href="http://YuHaibo.github.com/atom.xml" rel="self"/>
-  <link href="http://YuHaibo.github.com/"/>
-  <updated>2013-03-21T21:43:07+08:00</updated>
-  <id>http://YuHaibo.github.com/</id>
+  <link href="http://yuhaibo.com/atom.xml" rel="self"/>
+  <link href="http://yuhaibo.com/"/>
+  <updated>2013-03-21T21:45:16+08:00</updated>
+  <id>http://yuhaibo.com/</id>
   <author>
     <name><![CDATA[YuHaibo]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[QQ Pinyin Bug]]></title>
-    <link href="http://YuHaibo.github.com/post/qq-pinyin-bug/"/>
+    <link href="http://yuhaibo.com/post/qq-pinyin-bug/"/>
     <updated>2012-11-07T20:10:00+08:00</updated>
-    <id>http://YuHaibo.github.com/post/qq-pinyin-bug</id>
+    <id>http://yuhaibo.com/post/qq-pinyin-bug</id>
     <content type="html"><![CDATA[<p>已经提交到乌云: <a href="http://www.wooyun.org/bugs/wooyun-2012-014422">http://www.wooyun.org/bugs/wooyun-2012-014422</a></p>
 
 <p>搞不清楚这个算腾讯的bug还是微软的bug，于是相关厂商就写了个腾讯。</p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[kindle touch 修复]]></title>
-    <link href="http://YuHaibo.github.com/post/kindle-touch-debricking/"/>
+    <link href="http://yuhaibo.com/post/kindle-touch-debricking/"/>
     <updated>2012-07-14T20:10:00+08:00</updated>
-    <id>http://YuHaibo.github.com/post/kindle-touch-debricking</id>
+    <id>http://yuhaibo.com/post/kindle-touch-debricking</id>
     <content type="html"><![CDATA[<p>本人有一已越狱且换过字体的kindle touch，系统版本5.0.3，直接升级5.1.0失败，提示错误006。</p>
 
 <p>于是将其恢复出厂设置，果断杯具，文字无法正常显示，均变成“口口口口口口口口口”，忽然想起换过字体，于是字体文件拷回kindle touch，显示正常。</p>
