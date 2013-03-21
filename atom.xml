@@ -4,7 +4,7 @@
   <title><![CDATA[YuHaibo&apos;s Blog]]></title>
   <link href="http://YuHaibo.github.com/atom.xml" rel="self"/>
   <link href="http://YuHaibo.github.com/"/>
-  <updated>2013-03-21T21:15:49+08:00</updated>
+  <updated>2013-03-21T21:17:49+08:00</updated>
   <id>http://YuHaibo.github.com/</id>
   <author>
     <name><![CDATA[YuHaibo]]></name>
@@ -38,6 +38,9 @@
 <p>于是将其恢复出厂设置，果断杯具，文字无法正常显示，均变成“口口口口口口口口口”，忽然想起换过字体，于是字体文件拷回kindle touch，显示正常。</p>
 
 <p>打算换回原有字体并且反越狱，折腾N久未果，大怒，于是将kindle touch恢复到最初的5.0.0，记录之。</p>
+
+<!-- more -->
+
 
 <ul>
 <li>下载5.0.0完整镜像,Google <strong>mmcblk0p1-kt-5.0.0.img</strong> 即可下载；</li>
